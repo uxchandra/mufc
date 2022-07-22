@@ -1,0 +1,202 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width : 100px;
+    height: 100px;
+    margin-top: 3%;
+}
+
+header h1 {
+	float: left;
+	padding: 25px;
+    margin-top: -11px;
+	text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header h1 a {
+	transition: .3s;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    margin-top: 5%;
+    margin-bottom: -1%;
+}
+
+p.jumbotron {
+    text-align: center;
+    margin-top: -2%;
+    font-size: 18px;
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    padding: 25px;
+}
+#content {
+    float: left;
+    width: 75%;
+}
+
+h2 {
+    color: #000000
+}
+
+p {
+    text-align: justify;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav {
+    background-color: #DA291C;
+    padding: 5px;
+    position: sticky;
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.featured-image {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.profile-card header {
+    text-align: center;
+}
+
+.profile-card img {
+    width: 100px;
+    height: 125px;
+}
+
+.profile-card {
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: inline;
+}
+
+#about ,
+#legends ,
+#trophy {
+    text-align: center;
+}
+
+p.trophy {
+    text-align: center;
+}
+img.legends {
+    border-radius: 5%;
+    width: 100px;
+    margin: 15px
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #DA291C;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+
+    img.mufc {
+        margin-top: 15%;
+    }
+
+    p.jumbotron {
+        margin-top: -4%;
+    }
+
+    .profile-card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+}
+
+html {
+	scroll-behavior: smooth;
+}
