@@ -1,4 +1,4 @@
-const txtElement = ['Chandra Aditya', '18 year old', 'a Student', 'living in Kudus Regency' ];
+const txtElement = ['Chandra Aditya', '18 years old', 'a Student', 'living in Kudus Regency' ];
 let count = 0;
 let txtIndex = 0;
 let currentTxt = '';
